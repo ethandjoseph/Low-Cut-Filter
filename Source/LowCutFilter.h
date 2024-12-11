@@ -16,12 +16,12 @@ public:
 
     void setCutOffFrequency(float fc)
     {
-        this->cutOffFrequency = cutOffFrequency;
+        this->cutOffFrequency = fc;
     }
 
-    void setSamplingRate(float samplingRate)
+    void setSamplingRate(float sr)
     {
-        this->samplingRate = samplingRate;
+        this->samplingRate = sr;
     }
 
     void setQFactor(float qf)
