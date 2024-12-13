@@ -1,9 +1,7 @@
 # Low Cut Filter
- A simple all-pass-based parametric high-pass filter.
+ A simple all-pass-based parametric high-pass filter. Based on [Jan Wilczek's tutorial](https://thewolfsound.com/lowpass-highpass-filter-plugin-with-juce/).
  
  ![Signal Chain](https://github.com/ethandjoseph/Low-Cut-Filter/blob/main/hiPassLoPass%20sigChain.png)
- 
- [Based on Jan Wilczek's tutorial.](https://thewolfsound.com/lowpass-highpass-filter-plugin-with-juce/)
 
 ![Low Cut screenshot](https://github.com/ethandjoseph/Low-Cut-Filter/blob/main/lowCut%20plugDoc.png)
 
