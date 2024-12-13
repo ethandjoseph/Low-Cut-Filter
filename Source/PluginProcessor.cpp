@@ -142,9 +142,12 @@ juce::AudioProcessorValueTreeState::ParameterLayout LowCutAudioProcessor::create
     params.push_back(std::make_unique<juce::AudioParameterFloat>(
         "CUT_OFF_FREQUENCY",
         "Cut Off Frequency",
-        20.0f,
-        20000.0f,
-        500.f
+        juce::NormalisableRange{20.f,       // rangeStart
+                                20000.f,    // rangeEnd
+                                0.1f,       // intervalValue
+                                0.2f,       // skewFactor
+                                false},     // useSymmetricSkew
+        500.f                               // default
         ));
 
     return { params.begin(), params.end() };
