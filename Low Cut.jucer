@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="SWy9RY" name="Low Cut" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="Owninstrument"
-              companyWebsite="owninstrument.io" pluginFormats="buildStandalone,buildVST3"
-              pluginManufacturerCode="ONIN" pluginCode="LOCT">
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="Earth Mover DSP"
+              companyWebsite="www.EarthMoverDSP.com" pluginFormats="buildAAX,buildAU,buildAUv3,buildLV2,buildStandalone,buildVST3"
+              pluginManufacturerCode="EDSP" pluginCode="LOCT" pluginAAXCategory="1,8192"
+              lv2Uri="http://earthmoverdsp.com/plugins/LowCut">
   <MAINGROUP id="cskMSU" name="Low Cut">
     <GROUP id="{111774DA-047B-0743-B998-0ADF93436317}" name="Source">
       <FILE id="L5y9Pm" name="LowCutFilter.h" compile="0" resource="0" file="Source/LowCutFilter.h"/>
